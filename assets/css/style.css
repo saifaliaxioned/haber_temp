@@ -580,6 +580,86 @@ nav{
 
 /* advice-sec end */
 
+/* learn-sec start */
+
+.learn-sec .wrapper{
+  max-width: 1519px;
+  width: 100%;
+  margin: 0;
+}
+
+.blocks{
+  display: flex;
+  /* justify-content: center; */
+  color: rgb(255, 255, 255);
+}
+
+.block1,.block2{
+  flex-basis: 50%;
+}
+
+.block1{
+  background:rgb(220,98,38);
+  padding: 25px 4%;
+}
+
+.block2{
+  background: rgb(65,75,83);
+  padding: 25px 4% 25px 6%;
+}
+
+.block-heading{
+  font-size: 37px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.data-list{
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.data-list::before{
+  content: "\f013";
+  font-family: "FontAwesome";
+  font-size: 15px;
+  float: left;
+  padding-top: 4px;
+  padding-right: 20px;
+}
+
+.style-none::before{
+  content: "";
+  padding-right: 0;
+}
+
+.block-btn{
+  padding: 22px 0;
+}
+
+.block-btn a{
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  padding: 17px 2%;
+  border: 2.7px solid rgb(255, 255, 255);
+  transition: all 0.5s ease;
+}
+
+.block1 .block-btn a:hover{
+  color: rgb(220,98,38);
+  background: rgb(255, 255, 255);
+}
+
+.block2 .block-btn a:hover{
+  color: rgb(65,75,83);
+  background: rgb(255, 255, 255);
+}
+
+/* learn-sec end */
+
+
+
 /*=================================
   main styling ends here
 =================================*/
