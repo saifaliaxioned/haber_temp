@@ -433,32 +433,75 @@ nav{
   text-align: center;
 }
 
-/* .card-icon,.graph-icon,.money-icon,.glob-icon{
-  display: block;
+.card-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0 20px 0;
+}
+
+.card-icon{
   text-indent: -9999px;
 }
 
-.card-img{
-  margin: 20px 0;
-}
-
-.card-icon::before,.graph-icon::before,.money-icon::before,.glob-icon::before{
+.card-icon::before{
   text-indent: 0;
+  float: left;
   font-family: "FontAwesome";
+  font-size: 29px;
   color: rgb(255, 255, 255);
   background: rgb(220,98,38);
-  font-size: 34px;
-  padding: 23px 2.2%;
-  margin: 0px 35%;
+  padding: 26px;
   border-radius: 50px;
 }
 
-.card-icon::before{
+.bank-icon::before{
   content: "\f09d";
 }
+
 .graph-icon::before{
-  content: "\f09d";
-} */
+  content: "\f201";
+}
+
+.money-icon::before{
+  content: "\f81d";
+}
+
+.glob-icon::before{
+  content: "\f0ac";
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 27px;
+  padding: 10px 19% 20px 19%;
+}
+
+.card-desc{
+  text-align: center;
+  line-height: 25px;
+  padding: 0 5%;
+}
+
+.card-btn{
+  padding: 20px 0;
+}
+
+.card-btn a{
+  color: rgb(0,0,0);
+  font-weight: bolder;
+  text-transform: capitalize;
+  padding: 16px 5.5%;
+  border: 1px solid rgb(0,0,0);
+  transition: all 0.5s ease;
+}
+
+.card-btn a:hover{
+  color: rgb(255, 255, 255);
+  background: rgb(0,0,0);
+}
 
 /* tips-sec end */
 
