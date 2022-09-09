@@ -505,6 +505,81 @@ nav{
 
 /* tips-sec end */
 
+/* advice-sec start */
+
+.advice-sec{
+  background: rgb(231,236,240);
+}
+
+.advice-sec .sec-heading{
+  padding: 30px 0;
+}
+
+.advice-sec .sec-heading h2{
+  padding-bottom: 30px;
+}
+
+.advice-sec .sec-heading p{
+  font-size: 27px;
+  line-height: 37px;
+}
+
+.advice-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 35px 0 70px 0;
+}
+
+.adv-card{
+  flex-basis: 31.6%;
+  background:rgb(255, 255, 255);
+  box-shadow: 2px 2px 7px rgb(209, 206, 206);
+}
+
+.adv-img{
+  padding: 12px;
+}
+
+.adv-details{
+  text-align: center;
+  padding: 12px;
+}
+
+.adv-title{
+  color: rgb(220,98,38);
+  font-size: 34px;
+  font-weight: bold;
+  padding: 24px 0 0 0;
+}
+
+.adv-desc{
+  color: rgb(159,161,165);
+  line-height: 25px;
+  padding: 15px 12%;
+}
+
+.adv-btn a{
+  text-indent: -9999px;
+}
+
+.adv-btn a::before{
+  content: "\f35a";
+  text-indent: 0;
+  font-family: "FontAwesome";
+  float: left;
+  color: rgb(0,0,0);
+  font-size: 27px;
+  padding: 0 0 30px 0;
+  transition: all 0.5s ease;
+}
+
+.adv-btn a:hover::before{
+  color: rgb(220,98,38);
+}
+
+/* advice-sec end */
+
 /*=================================
   main styling ends here
 =================================*/
