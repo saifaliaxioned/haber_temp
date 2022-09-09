@@ -405,6 +405,63 @@ nav{
 
 /* banner sec end */
 
+/* tips-sec start */
+
+.tips-sec{
+  padding: 50px 0;
+}
+
+.sec-heading{
+  text-align: center;
+}
+
+.sec-heading h2{
+  font-size: 42px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 47px 0;
+}
+
+.tip-cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card{
+  flex-basis: 20%;
+  text-align: center;
+}
+
+/* .card-icon,.graph-icon,.money-icon,.glob-icon{
+  display: block;
+  text-indent: -9999px;
+}
+
+.card-img{
+  margin: 20px 0;
+}
+
+.card-icon::before,.graph-icon::before,.money-icon::before,.glob-icon::before{
+  text-indent: 0;
+  font-family: "FontAwesome";
+  color: rgb(255, 255, 255);
+  background: rgb(220,98,38);
+  font-size: 34px;
+  padding: 23px 2.2%;
+  margin: 0px 35%;
+  border-radius: 50px;
+}
+
+.card-icon::before{
+  content: "\f09d";
+}
+.graph-icon::before{
+  content: "\f09d";
+} */
+
+/* tips-sec end */
+
 /*=================================
   main styling ends here
 =================================*/
