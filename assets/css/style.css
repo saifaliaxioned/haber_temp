@@ -712,6 +712,65 @@ padding: 4px 0 30px 0;
 
 /* comp-sec end */
 
+/* contact-sec start */
+
+.contact-sec{
+  background: rgb(203, 197, 197);
+}
+
+.contact-sec .sec-heading{
+  padding: 30px 0;
+}
+
+.contact-sec .sec-heading h2{
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 1px black;
+}
+
+form{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-sec{
+  flex-basis: 31%;
+  padding: 0 4% 0 0 ;
+}
+
+.input-group{
+  padding: 0 0 15px 0;
+}
+
+.input-group input{
+  padding: 12px 3%;
+}
+
+.input-group input,.message-sec textarea{
+  width: 100%;
+  background: rgb(0,0,0,0.4);
+  border: 2px solid rgb(216, 219, 220);
+}
+
+.input-group input::placeholder,.message-sec textarea::placeholder{
+  color: rgb(183, 187, 189);
+}
+
+.message-sec{
+  flex-basis: 65%; 
+}
+
+.message-sec textarea{
+  padding: 12px ;
+}
+
+.input-control{
+  flex-basis: 100%;
+  text-align: right;
+}
+
+
+/* contact-sec end */
+
 
 /*=================================
   main styling ends here
