@@ -224,9 +224,9 @@ nav{
 }
 
 .nav-link{
-  margin: 0px 2.9%;
   font-size: 15px;
   font-weight: 600;
+  margin: 0px 2.9%;
 }
 
 .links{
@@ -322,6 +322,88 @@ nav{
 /*=================================
   main styling starts here
 =================================*/
+
+/* banner sec start */
+
+.banner .wrapper{
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.slide-list{
+  display: none;
+}
+
+.active-slide{
+  display: block;
+}
+
+.slide-list{
+  position: relative;
+
+}
+
+.slide-img img{
+  width: 1519px;
+}
+
+.slide-heading{
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 13.1%;
+  background: rgb(220,98,38);
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px 2%;
+}
+
+.slide-controls{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 13.1%;
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px 2% 38px 2%;
+}
+
+.pre-btn a,.nxt-btn a{
+  text-indent: -9999px;
+}
+
+.pre-btn a::before ,.nxt-btn a::before{
+  text-indent: 0;
+  font-family: "FontAwesome";
+  float: left;
+  color: rgb(255, 255, 255);
+  font-size: 33px;
+}
+
+.pre-btn a::before{
+  content: "\f053";
+  transition: all 0.5s ease;
+}
+
+.nxt-btn a::before{
+  content: "\f054";
+  transition: all 0.5s ease;
+}
+
+.pre-btn a:hover::before,.nxt-btn a:hover::before{
+  color: rgb(0,0,0);
+}
+
+
+/* banner sec end */
 
 /*=================================
   main styling ends here
