@@ -204,6 +204,117 @@ li {
   Header styling starts here
 =================================*/
 
+header{
+  background: rgb(67,75,82);
+}
+
+header .wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  flex-basis: 50%;
+  padding: 20px 0;
+}
+
+.nav-items{
+  display: flex;
+}
+
+.nav-link{
+  margin: 0px 2.9%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.links{
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+}
+
+.active-link{
+  color: rgb(220,98,38);
+}
+
+.links:hover{
+  color: rgb(220,98,38);
+}
+
+.social-media{
+  display: flex;
+}
+
+.social-link{
+  text-indent: -9999px;
+}
+
+.social-list{
+  padding: 0 8px;
+
+}
+
+.social-link::before {
+  text-indent: 0;
+  font-family: "FontAwesome";
+  float: left;
+  color: rgb(128,140,148);
+  font-size: 26px;
+}
+
+.twitter::before {
+  content: "\f081";
+  transition: all 0.5s ease;
+}
+
+.youtube::before {
+  content: "\f167";
+  transition: all 0.5s ease;
+}
+
+.rssfeed::before {
+  content: "\f09e";
+  transition: all 0.5s ease;
+}
+
+.facebook::before {
+  content: "\f082";
+  transition: all 0.5s ease;
+}
+
+.google::before {
+  content: "\f0d4";
+  transition: all 0.5s ease;
+}
+
+.twitter:hover::before {
+  color: rgb(29, 161, 242);
+  transform: scale(1.7);
+}
+
+.youtube:hover::before {
+  color: rgb(255, 0, 0);
+  transform: scale(1.7);
+}
+
+.rssfeed:hover::before {
+  color: rgb(238, 128, 47);
+  transform: scale(1.7);
+}
+
+.facebook:hover::before {
+  color: rgb(66, 103, 178);
+  transform: scale(1.7);
+}
+
+.google:hover::before {
+  color: rgb(46, 178, 70);
+  transform: scale(1.7);
+}
+
+
 /*=================================
   Header styling ends here
 =================================*/
