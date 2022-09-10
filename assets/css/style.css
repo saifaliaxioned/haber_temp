@@ -1011,3 +1011,15 @@ footer .social-link::before {
 
 }
 
+/*media query for 995px starts here*/
+@media only screen and (max-width: 995px) {
+
+  .nav-items{
+    padding: 0;
+  }
+
+  .message-sec {
+    flex-basis: 62%;
+  }
+
+}
