@@ -590,6 +590,7 @@ nav{
 .blocks{
   display: flex;
   /* justify-content: center; */
+  flex-wrap: wrap;
   color: rgb(255, 255, 255);
 }
 
@@ -940,6 +941,73 @@ footer .social-link::before {
 =================================*/
 
 /*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+/*media query for 1024px starts here*/
+@media only screen and (max-width: 1024px) {
+  /* header sec start */
+  nav{
+    flex-basis: 99%;
+  }
+
+  .nav-items{
+    padding: 0 0 0 4%;
+  }
+
+  .nav-link{
+    font-size: 14px;
+    margin: 0 1.5%;
+  }
+
+  .social-link::before{
+    font-size: 25px;
+  }
+
+  /* header sec end */
+
+  /* banner sec start */
+  .slide-heading{
+    font-size: 34px;
+  }
+
+  .slide-controls{
+    padding: 0px 2% 27px 2%;
+  }
+
+  /* bannner sec end */
+
+  /* tips sec start */
+
+  .card{
+    flex-basis: 44%;
+    padding: 0px 2%;
+  }
+
+  /* tips sec end */
+
+  /* learn sec start */
+  .block1,.block2{
+    flex-basis: 100%;
+  }
+  /* learn sec end */
+
+  /* comp-contact sec start */
+
+  .cont-card{
+    flex-basis: 33%;
+  }
+
+  .cont-title{
+    font-size: 14px;
+  }
+
+  .cont-icon::before{
+    font-size: 20px;
+  }
+
+  .cont-num{
+    font-size: 21px;
+  }
+
+  /* comp-contact sec end */
+
 }
+
