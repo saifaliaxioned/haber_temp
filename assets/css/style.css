@@ -326,7 +326,6 @@ nav{
 /* banner sec start */
 
 .banner .wrapper{
-  width: 100%;
   position: relative;
   margin: 0;
 }
@@ -345,7 +344,7 @@ nav{
 }
 
 .slide-img img{
-  width: 1519px;
+  object-fit: cover;
 }
 
 .slide-heading{
@@ -892,6 +891,7 @@ footer{
 .foot-content{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 40px 0 80px 0;
   margin: 0 0 50px 0;
 }
