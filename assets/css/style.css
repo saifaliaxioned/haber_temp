@@ -219,6 +219,10 @@ nav{
   padding: 20px 0;
 }
 
+.hamburger{
+  display: none;
+}
+
 .bar {
   text-indent: -9999px;
   background: rgb(159,161,165);
@@ -1036,18 +1040,52 @@ footer .social-link::before {
 /*media query for 768px starts here*/
 @media only screen and (max-width: 768px) {
 
-  /* banner sec start */
+/* header start */
+
+nav{
+  display: none;
+}
+
+header .social-media{
+  display: none;
+}
+
+.hamburger{
+  display: block;
+}
+
+.bar{
+  margin: 7px 14px;
+  padding: 2px 17px;
+}
+
+/* header end */
+
+/* banner sec start */
 
 .slide-controls {
-    padding: 0px 2% 16px 2%;
+    padding: 0px 2% 6px 2%;
 }
 
 .slide-heading{
-  font-size: 26px;
+  font-size: 18px;
 }
 
 .pre-btn a::before, .nxt-btn a::before {
-  font-size: 26px;
+  font-size: 18px;
+}
+
+.social-platform{
+  flex-basis: 100%;
+}
+
+.map-block{
+  max-width: 700px;
+  flex-basis: 100%;
+}
+
+.map-block iframe{
+  width: 100%;
 }
 
 /* banner sec end */
