@@ -797,17 +797,79 @@ form{
   padding: 30px 0;
 }
 
+.comp-contact .wrapper{
+  padding: 35px 0;
+}
+
 .contact-info{
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  padding: 40px 0;
 }
 
 .cont-card{
+  flex-basis: 33%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.cont-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 0 20px 0;
+  /* margin: 0 0 0 2%; */
+}
+
+.cont-icon{
+  text-indent: -9999px;
+}
+
+.cont-icon::before{
+  text-indent: 0;
+  float: left;
+  font-family: "FontAwesome";
+  font-size: 29px;
+  color: rgb(255, 255, 255);
+  background: rgb(220,98,38);
+  padding: 24px 28px;
+  border: 10px solid rgb(109,113,124);
+  border-radius: 50px;
+}
+
+.loc-icon::before{
+  content: "\f3c5";
+}
+
+.mail-icon::before{
+  content: "\f0e0";
+  padding: 24px 24px;
+}
+
+.call-icon::before{
+  content: "\f095";
+  padding: 24px 24px;
+}
+
+.cont-title{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0 5%;
+}
+
+.call-num{
+  padding: 0 5%;
+}
+
+.cont-num{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 
 
 
