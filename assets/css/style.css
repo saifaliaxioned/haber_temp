@@ -1023,3 +1023,77 @@ footer .social-link::before {
   }
 
 }
+
+/*media query for 768px starts here*/
+@media only screen and (max-width: 768px) {
+
+  /* banner sec start */
+
+.slide-controls {
+    padding: 0px 2% 16px 2%;
+}
+
+.slide-heading{
+  font-size: 26px;
+}
+
+.pre-btn a::before, .nxt-btn a::before {
+  font-size: 26px;
+}
+
+/* banner sec end */
+
+/* advice sec start */
+
+.adv-card {
+  flex-basis: 48%;
+  margin: 29px 0 0 0;
+}
+
+/* advie sec end */
+
+/* contact-sec start */
+
+.input-sec{
+  flex-basis: 94%;
+}
+
+.message-sec{
+  flex-basis: 96%;
+}
+
+.input-control input{
+  font-size: 15px;
+  padding: 15px 4%;
+}
+
+/* contact-sec end */
+
+/* comp-contact-sec start */
+
+.cont-card:first-child{
+  padding: 0 0px 0 17px;
+}
+
+.cont-card{
+  flex-basis: 42%;
+}
+
+.cont-icon::before{
+  padding: 18px 21px;
+}
+
+.mail-icon::before{
+  padding: 17px 17px;
+}
+
+.call-icon::before{
+  padding: 17px 17px;
+}
+
+/* comp-contact-sec end */
+
+
+
+}
+
