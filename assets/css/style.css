@@ -790,6 +790,29 @@ form{
 
 /* contact-sec end */
 
+/* comp-contact start */
+
+.comp-contact{
+  background: rgb(80,91,99);
+  padding: 30px 0;
+}
+
+.contact-info{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cont-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* comp-contact end */
+
 
 /*=================================
   main styling ends here
