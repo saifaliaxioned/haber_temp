@@ -853,7 +853,7 @@ form{
 }
 
 .cont-title{
-  color: white;
+  color: rgb(255,255,255);
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -865,7 +865,7 @@ form{
 }
 
 .cont-num{
-  color: white;
+  color: rgb(255,255,255);
   font-size: 25px;
   font-weight: bold;
 }
@@ -883,6 +883,36 @@ form{
 /*=================================
   footer styling starts here
 =================================*/
+
+footer{
+  background: rgb(64,75,82);
+}
+
+.foot-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.social-platform{
+  padding: 30px 0;
+}
+
+.copyright{
+  color: rgb(255,255,255);
+  padding: 15px 0;
+}
+
+.comp-name{
+  font-size: 43px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer .social-link::before {
+  font-size: 40px;
+}
+
 
 /*=================================
   footer styling ends here
