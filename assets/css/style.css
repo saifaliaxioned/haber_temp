@@ -823,7 +823,6 @@ form{
 .cont-card{
   flex-basis: 33%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -1118,10 +1117,6 @@ header .social-media{
 
 /* comp-contact-sec start */
 
-.cont-card:first-child{
-  padding: 0 0px 0 17px;
-}
-
 .cont-card{
   flex-basis: 42%;
 }
@@ -1144,3 +1139,31 @@ header .social-media{
 
 }
 
+/* media query for 640px starts here */
+@media only screen and (max-width: 640px){
+
+/* tips sec start  */
+
+.card{
+  flex-basis: 100%;
+}
+
+/* tips sec end  */
+
+/* advice sec start */
+
+.adv-card{
+  flex-basis: 100%;
+}
+
+/* advice sec end */
+
+/* comp-contact sec start */
+
+.cont-card{
+  flex-basis: 100%;
+}
+
+/* comp-contact sec end */
+
+}
