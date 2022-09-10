@@ -1039,101 +1039,101 @@ footer .social-link::before {
 /*media query for 768px starts here*/
 @media only screen and (max-width: 768px) {
 
-/* header start */
+  /* header start */
 
-nav{
-  display: none;
-}
+  nav{
+    display: none;
+  }
 
-header .social-media{
-  display: none;
-}
+  header .social-media{
+    display: none;
+  }
 
-.hamburger{
-  display: block;
-}
+  .hamburger{
+    display: block;
+  }
 
-.bar{
-  margin: 7px 14px;
-  padding: 2px 17px;
-}
+  .bar{
+    margin: 7px 14px;
+    padding: 2px 17px;
+  }
 
-/* header end */
+  /* header end */
 
-/* banner sec start */
+  /* banner sec start */
 
-.slide-controls {
-    padding: 0px 2% 6px 2%;
-}
+  .slide-controls {
+      padding: 0px 2% 6px 2%;
+  }
 
-.slide-heading{
-  font-size: 18px;
-}
+  .slide-heading{
+    font-size: 18px;
+  }
 
-.pre-btn a::before, .nxt-btn a::before {
-  font-size: 18px;
-}
+  .pre-btn a::before, .nxt-btn a::before {
+    font-size: 18px;
+  }
 
-.social-platform{
-  flex-basis: 100%;
-}
+  .social-platform{
+    flex-basis: 100%;
+  }
 
-.map-block{
-  max-width: 700px;
-  flex-basis: 100%;
-}
+  .map-block{
+    max-width: 700px;
+    flex-basis: 100%;
+  }
 
-.map-block iframe{
-  width: 100%;
-}
+  .map-block iframe{
+    width: 100%;
+  }
 
-/* banner sec end */
+  /* banner sec end */
 
-/* advice sec start */
+  /* advice sec start */
 
-.adv-card {
-  flex-basis: 48%;
-  margin: 29px 0 0 0;
-}
+  .adv-card {
+    flex-basis: 48%;
+    margin: 29px 0 0 0;
+  }
 
-/* advie sec end */
+  /* advie sec end */
 
-/* contact-sec start */
+  /* contact-sec start */
 
-.input-sec{
-  flex-basis: 94%;
-}
+  .input-sec{
+    flex-basis: 94%;
+  }
 
-.message-sec{
-  flex-basis: 96%;
-}
+  .message-sec{
+    flex-basis: 96%;
+  }
 
-.input-control input{
-  font-size: 15px;
-  padding: 15px 4%;
-}
+  .input-control input{
+    font-size: 15px;
+    padding: 15px 4%;
+  }
 
-/* contact-sec end */
+  /* contact-sec end */
 
-/* comp-contact-sec start */
+  /* comp-contact-sec start */
 
-.cont-card{
-  flex-basis: 42%;
-}
+  .cont-card{
+    flex-basis: 42%;
+  }
 
-.cont-icon::before{
-  padding: 18px 21px;
-}
+  .cont-icon::before{
+    padding: 18px 21px;
+  }
 
-.mail-icon::before{
-  padding: 17px 17px;
-}
+  .mail-icon::before{
+    padding: 17px 17px;
+  }
 
-.call-icon::before{
-  padding: 17px 17px;
-}
+  .call-icon::before{
+    padding: 17px 17px;
+  }
 
-/* comp-contact-sec end */
+  /* comp-contact-sec end */
 
 
 
@@ -1142,28 +1142,49 @@ header .social-media{
 /* media query for 640px starts here */
 @media only screen and (max-width: 640px){
 
-/* tips sec start  */
+  /* tips sec start  */
 
-.card{
-  flex-basis: 100%;
+  .card{
+    flex-basis: 100%;
+  }
+
+  /* tips sec end  */
+
+  /* advice sec start */
+
+  .adv-card{
+    flex-basis: 100%;
+  }
+
+  /* advice sec end */
+
+  /* comp-contact sec start */
+
+  .cont-card{
+    flex-basis: 100%;
+  }
+
+  /* comp-contact sec end */
+
 }
 
-/* tips sec end  */
+/* media query for 480px starts here */
+@media only screen and (max-width: 480px){
 
-/* advice sec start */
+  /* banner sec start */
 
-.adv-card{
-  flex-basis: 100%;
-}
+  .slide-controls {
+    padding: 0 2% 0 2%;
+  }
 
-/* advice sec end */
+  .slide-heading{
+    font-size: 11px;
+  }
+  
+  .pre-btn a::before, .nxt-btn a::before {
+    font-size: 11px;
+  }
 
-/* comp-contact sec start */
-
-.cont-card{
-  flex-basis: 100%;
-}
-
-/* comp-contact sec end */
+  /* banner sec end */
 
 }
