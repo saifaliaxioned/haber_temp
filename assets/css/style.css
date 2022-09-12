@@ -97,6 +97,12 @@ video {
   vertical-align: baseline;
 }
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -215,7 +221,7 @@ header .wrapper{
 }
 
 nav{
-  flex-basis: 50%;
+  flex-basis: 53%;
   padding: 20px 0;
 }
 
@@ -224,12 +230,12 @@ nav{
 }
 
 .bar {
-  text-indent: -9999px;
-  background: rgb(159,161,165);
-  margin: 3px 10px;
-  font-size: 0;
-  border-radius: 12px;
   padding: 1px 7px;
+  margin: 3px 10px; 
+  border-radius: 12px;
+  background: rgb(159,161,165);
+  font-size: 0;
+  text-indent: -9999px;
 }
 
 .nav-items{
@@ -237,9 +243,9 @@ nav{
 }
 
 .nav-link{
+  margin: 0px 2.9%;
   font-size: 15px;
   font-weight: 600;
-  margin: 0px 2.9%;
 }
 
 .links{
@@ -340,9 +346,8 @@ nav{
 
 .banner .wrapper{
   position: relative;
-  margin: 0;
+  width: 100%;
 }
-
 .slide-list{
   display: none;
 }
@@ -363,8 +368,9 @@ nav{
 .slide-heading{
   position: absolute;
   bottom: 0;
-  left: 25%;
-  right: 13.1%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
   background: rgb(220,98,38);
   font-size: 40px;
   font-weight: bold;
@@ -379,8 +385,9 @@ nav{
   justify-content: space-between;
   position: absolute;
   bottom: 0;
-  left: 25%;
-  right: 13.1%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
@@ -595,9 +602,7 @@ nav{
 /* learn-sec start */
 
 .learn-sec .wrapper{
-  max-width: 1519px;
   width: 100%;
-  margin: 0;
 }
 
 .blocks{
@@ -687,16 +692,16 @@ nav{
 }
 
 .comp-controls{
-display: flex;
-justify-content: space-between;
-position: absolute;
-bottom: 0;  
-left: -1%;
-right: -1%;
-font-size: 25px;
-font-weight: bold;
-text-transform: uppercase;
-padding: 4px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;  
+  left: -1%;
+  right: -1%;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px 0 30px 0;
 }
 
 .control-btn a{
@@ -724,82 +729,90 @@ padding: 4px 0 30px 0;
 }
 
 /* comp-sec end */
-
 /* contact-sec start */
 
-.contact-sec{
+.contact-sec {
   background: rgb(203, 197, 197);
   padding: 0 0 51px 0;
 }
 
-.contact-sec .sec-heading{
+.contact-sec .sec-heading {
   padding: 30px 0;
 }
 
-.contact-sec .sec-heading h2{
+.contact-sec .sec-heading h2 {
   color: rgb(255, 255, 255);
   text-shadow: 2px 2px 1px black;
 }
 
-form{
+form {
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
 }
 
-.input-sec{
-  flex-basis: 31%;
-  padding: 0 4% 0 0 ;
+.input-sec {
+  flex-basis: 31.3%;
+  /* padding: 0 4% 0 0; */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.input-group{
+/* .input-group {
   padding: 0 0 15px 0;
+} */
+
+.input-group input {
+  padding: 8px 3%;
 }
 
-.input-group input{
-  padding: 12px 3%;
-}
-
-.input-group input,.message-sec textarea{
+.input-group input,
+.message-sec textarea {
   width: 100%;
-  background: rgb(0,0,0,0.4);
+  background: rgb(0, 0, 0, 0.4);
   border: 2px solid rgb(216, 219, 220);
 }
 
-.input-group input::placeholder,.message-sec textarea::placeholder{
+.message-sec textarea {
+  height: 137px;
+  resize: none;
+}
+
+.input-group input::placeholder,
+.message-sec textarea::placeholder {
   color: rgb(183, 187, 189);
 }
 
-.message-sec{
-  flex-basis: 63%; 
+.message-sec {
+  flex: 1 0 63%;
 }
 
-.message-sec textarea{
-  padding: 12px ;
+.message-sec textarea {
+  padding: 12px;
 }
 
-.input-control{
+.input-control {
   flex-basis: 100%;
   text-align: right;
   padding: 11px 0;
 }
 
-.input-control input{
+.input-control input {
   color: rgb(255, 255, 255);
-  background: rgb(220,98,38);
+  background: rgb(220, 98, 38);
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   padding: 12px 2%;
   border: none;
   transition: all 0.5s ease;
-
 }
 
-.input-control input:hover{
-  color: rgb(220,98,38);
-  background: rgb(255,255,255);
+.input-control input:hover {
+  color: rgb(220, 98, 38);
+  background: rgb(255, 255, 255);
 }
-
 
 /* contact-sec end */
 
@@ -976,12 +989,9 @@ footer .social-link::before {
   /* header sec end */
 
   /* banner sec start */
+
   .slide-heading{
     font-size: 34px;
-  }
-
-  .slide-controls{
-    padding: 0px 2% 27px 2%;
   }
 
   /* bannner sec end */
@@ -1062,8 +1072,8 @@ footer .social-link::before {
 
   /* banner sec start */
 
-  .slide-controls {
-      padding: 0px 2% 6px 2%;
+  .slide-controls{
+    transform: translate(-50%,41%);
   }
 
   .slide-heading{
@@ -1101,11 +1111,11 @@ footer .social-link::before {
   /* contact-sec start */
 
   .input-sec{
-    flex-basis: 94%;
+    flex-basis: 100%;
   }
 
   .message-sec{
-    flex-basis: 96%;
+    flex-basis: 100%;
   }
 
   .input-control input{
@@ -1163,6 +1173,10 @@ footer .social-link::before {
   .cont-card{
     flex-basis: 100%;
   }
+  
+  .cont-title{
+    font-size: 23px;
+  }
 
   /* comp-contact sec end */
 
@@ -1171,20 +1185,131 @@ footer .social-link::before {
 /* media query for 480px starts here */
 @media only screen and (max-width: 480px){
 
-  /* banner sec start */
+  /* header start */
 
-  .slide-controls {
-    padding: 0 2% 0 2%;
+  .bar {
+    margin: 6px 10px;
+    padding: 2px 17px;
   }
 
+  /* header start */
+
+  /* banner sec start */
+
+  .slide-controls{
+    transform: translate(-50%,50%);
+    width: 70%;
+  }
+  
   .slide-heading{
-    font-size: 11px;
+    width: 70%;
+    font-size: 14px;
   }
   
   .pre-btn a::before, .nxt-btn a::before {
-    font-size: 11px;
+    font-size: 14px;
   }
 
   /* banner sec end */
+
+  /* advice sec start */
+
+  .sec-heading h2 {
+    font-size: 33px;
+  }
+
+  .advice-sec .sec-heading p {
+    font-size: 16px;
+    line-height: 37px;
+  }
+
+  /* advice sec end */
+
+  /* learn sec start */
+
+  .block-heading {
+    font-size: 33px;
+  }
+
+  /* learn sec end */
+
+  /* comp-contact start */
+
+  .cont-title {
+    font-size: 19px;
+  }
+
+  /* comp-contact end */
+
+}
+
+/* media query for 425px starts here */
+@media only screen and (max-width: 425px){
+
+  /*  */
+}
+
+/* media query for 375px starts here */
+@media only screen and (max-width: 375px){
+
+  /* comp-contact start */
+  
+  .cont-title {
+    font-size: 16px;
+  }
+  
+  /* comp-contact start */
+
+  /* footer start */
+
+  footer .social-list {
+    padding: 0 14px 0 0;
+  }
+
+  footer .social-link::before {
+    font-size: 26px;
+  }
+
+  /* footer end */
+
+}
+
+
+/* media query for 320px starts here */
+@media only screen and (max-width: 320px){
+
+  /* header start */
+
+  .bar{
+    margin: 4px 8px;
+    padding: 2px 13px;
+  }
+
+  /* header end */
+
+  /* comp-contact start */
+
+  .cont-title {
+    font-size: 15px;
+    padding-right: 0;
+  }
+
+  /* comp-contact end */
+
+  /* footer start */
+
+  footer{
+    padding: 0;
+  }
+
+  .foot-content{
+    margin: 0;
+  }
+
+  .comp-name {
+    font-size: 33px;
+  }
+
+  /* footer end */
 
 }
