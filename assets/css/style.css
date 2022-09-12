@@ -1051,6 +1051,10 @@ footer .social-link::before {
 
   /* header start */
 
+  .logo{
+    flex-basis: 30%;
+  }
+
   nav{
     display: none;
   }
@@ -1196,6 +1200,15 @@ footer .social-link::before {
 
   /* banner sec start */
 
+  .slide-img{
+    height: 50vh;
+  }
+
+  .slide-img img{
+    height: 100%;
+    object-fit: cover;
+  }
+
   .slide-controls{
     transform: translate(-50%,50%);
     width: 70%;
@@ -1278,6 +1291,11 @@ footer .social-link::before {
 /* media query for 320px starts here */
 @media only screen and (max-width: 320px){
 
+  .sec-heading h2{
+    padding: 0;
+    font-size: 26px;
+  }
+
   /* header start */
 
   .bar{
@@ -1286,6 +1304,19 @@ footer .social-link::before {
   }
 
   /* header end */
+
+  /* banner start */
+
+  .slide-img{
+    height: 50vh;
+  }
+
+  .slide-img img{
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* banner end */
 
   /* comp-contact start */
 
